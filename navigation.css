@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Belanosima&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Belanosima&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Belanosima&family=Livvic:wght@700&display=swap');
+
+.flex{
+    display: flex;
+}
+a{
+    text-decoration: none;
+    color: blueviolet;
+    font-family: 'Belanosima', sans-serif;
+}
+.navigation{
+    padding: 10px;
+    background-color: rgb(11, 145, 171);
+    justify-content: space-between;
+}
+.photo{
+    margin-left: 10%;
+    align-items: center;
+    gap: 20px;
+}
+.photo h3{
+    color: rgb(1, 212, 82);
+    font-size: 1.7rem;
+    font-family: 'Livvic', sans-serif;
+}
+.photo img{
+    border: 2px solid yellow;
+    height: 50px;
+    border-radius: 50%;
+}
+.nav-text{
+    margin-right: 5%;
+    justify-content: space-evenly;
+    gap: 50px;
+}
+.nav-text h3{
+    border: 3px solid gold;
+    background-color: antiquewhite;
+    border-radius: 15px;
+    padding: 10px;
+}

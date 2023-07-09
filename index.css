@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Belanosima&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Belanosima&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Belanosima&family=Livvic:wght@700&display=swap');
+
+.flex{
+    display: flex;
+}
+body{
+    margin: 0%;
+    background-image: url(./assets/Dark\ Space\ Theme\ Creative\ Portfolio\ Presentation.svg);
+}
+.my-intro{
+height: 100vh;
+}
+
+.my-intro img{
+    width: 50%;
+    background-image: url(./assets/photo\ back.png);
+    background-size: cover;
+}
+.intro-text{
+    margin-top: 5%;
+    /* margin-left: 10% */
+    margin-bottom: 0%;
+}
+.intro-text-name{
+    position: relative;
+}
+.intro-text h1{
+    font-size: 5rem;
+    /* margin-left: 20%; */
+    color: aquamarine;
+    /* text-transform: uppercase; */
+    font-family: 'Livvic', sans-serif;
+}
+.intro-text h5 {
+    /* margin-left: 20%; */
+    color: orange;
+    position: absolute;
+    top: 85%;
+}
+
+.intro-sub-box{
+    justify-content: space-between;
+    font-size: 1.5rem;
+}
+.intro-sub-text > h3{
+    color: antiquewhite;
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Belanosima', sans-serif;
+}
+.intro-sub-text > p{
+    color: aliceblue;
+    margin-right: 20%;
+    font-size: 1.25rem;
+    font-family: 'Belanosima', sans-serif;
+}
+
+/* -------------------------------------------- */
+/* Navigation */
+a{
+    text-decoration: none;
+    color: orange;
+    font-family: 'Belanosima', sans-serif;
+}
+.nav-text{
+    margin-right: 5%;
+    margin-top: 8%;
+    justify-content: space-evenly;
+    gap: 10px;
+}
+.nav-text h3{
+    border: 3px solid aqua;
+    border-radius: 15px;
+    padding: 10px;
+}

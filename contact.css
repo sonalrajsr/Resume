@@ -1,0 +1,90 @@
+body{
+    background-image: url(./assets/Dark\ Space\ Theme\ Creative\ Portfolio\ Presentation.svg);
+}
+.flex{
+    display: flex;
+}
+a{
+    text-decoration: none;
+    color: blueviolet;
+}
+.contact{
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    height: 100vh;
+}
+.contact-photo > img {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    height: 100vh;
+    z-index: 0;
+
+}
+#photo1 > img{
+    height: 600px;
+    position: absolute;
+    right: 250px;
+    top: 10%;
+    z-index: +2;
+    
+}
+#photo2 > img{
+    width: 350px;
+    position: absolute;
+    right: 0%;
+    top: 40%;
+    z-index: +1;
+
+}
+.social-sites{
+    height: 70px;
+    background-color: aqua;
+    padding: 10px;
+    border-radius: 10px;
+}
+.social-sites img{
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    background-color: antiquewhite;
+    padding: 10px;
+    border-radius: 10px;
+}
+.contact-text{
+    width: 50vw;
+    margin-top: 350px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 15px;
+    margin-left: 20px;
+}
+button{
+    text-align: center;
+    font-size: 1rem;
+    font-weight: bold;
+    border: 0px;
+    background-color: aqua;
+}
+
+/* -------------------------------------------- */
+/* Navigation */
+a{
+    text-decoration: none;
+    color: orange;
+    font-family: 'Belanosima', sans-serif;
+}
+.nav-text{
+    width: 50vw;
+    margin-right: 5%;
+    margin-top: 1%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.nav-text h3{
+    border: 3px solid aqua;
+    border-radius: 15px;
+    padding: 10px;
+}
